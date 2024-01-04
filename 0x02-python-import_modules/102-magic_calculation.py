@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-import dis
-dis.dis(magic_calculation)
+
 def magic_calculation(a, b):
     """Magic calculator."""
     from magic_calculation_102 import add, sub
