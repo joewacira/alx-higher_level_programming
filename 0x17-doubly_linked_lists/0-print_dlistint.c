@@ -9,12 +9,12 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	int count;
+	int hsb;
 
-	count = 0;
+	hsb = 0;
 
 	if (h == NULL)
-		return (count);
+		return (hsb);
 
 	while (h->prev != NULL)
 		h = h->prev;
@@ -26,5 +26,5 @@ size_t print_dlistint(const dlistint_t *h)
 		h = h->next;
 	}
 
-	return (count);
+	return (hsb);
 }
