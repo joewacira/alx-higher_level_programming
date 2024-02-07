@@ -1,4 +1,3 @@
-101-add_attribute.py
 #!/usr/bin/python3
 """Defining a func that adds attributes to objects."""
 
